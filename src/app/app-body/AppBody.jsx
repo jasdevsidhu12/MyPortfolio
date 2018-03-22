@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import AppBodyItem from './app-body-item/AppBodyItem';
 import EducationItem from './app-body-item/EducationItem';
+import WorkExperienceItem from './app-body-item/WorkExperienceItem';
 
 class AppBody extends Component { 
   constructor() {
@@ -16,7 +17,7 @@ class AppBody extends Component {
     <div className="portfolio-flex-main-panel">
       <AppBodyItem class="summary" text={this.summaryText}/>
       <EducationItem class="education" />
-      <AppBodyItem class="" text={this.summaryText}/>
+      <WorkExperienceItem class="work-exp" />
       <AppBodyItem class="" text={this.summaryText}/>
       <AppBodyItem class="" text={this.summaryText}/>
       <AppBodyItem class="" text={this.summaryText}/>
