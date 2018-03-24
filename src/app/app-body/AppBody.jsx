@@ -18,17 +18,7 @@ class AppBody extends Component {
       <AppBodyItem class="summary" text={this.summaryText}/>
       <EducationItem class="education" />
       <WorkExperienceItem class="work-exp" />
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
-      <AppBodyItem class="" text={this.summaryText}/>
+      {/* <AppBodyItem class="" text={this.summaryText}/> */}
     </div>
   );
   }

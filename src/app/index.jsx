@@ -13,6 +13,9 @@ const App = () => {
                 Picture
             </div>
             <AppBody />
+            <div>
+                footer
+            </div>
         </div>
     );
 }
