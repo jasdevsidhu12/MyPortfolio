@@ -22,6 +22,7 @@ class AppBodyItem extends Component {
 }
 
 AppBodyItem.propTypes = {
-  class: PropTypes.string
+  class: PropTypes.string,
+  text: PropTypes.string
 }
 export default AppBodyItem;
