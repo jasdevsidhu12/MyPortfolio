@@ -1,22 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ButtonAppBar from './app-bar/AppBar';
+// import ButtonAppBar from './app-bar/AppBar';
 import AppBody from './app-body/AppBody';
-import AppHeader from './app-header/AppHeader';
+// import AppHeader from './app-header/AppHeader';
 
 import '../css/general.scss';
 
 const App = () => {
     return (
         <div>
-            <AppHeader />
+            {/* <AppHeader /> */}
             {/* <div className="portfolio-picture-panel">
                 <b>Jasdev Sidhu</b>
             </div> */}
             <AppBody />
-            <div>
-                footer
-            </div>
         </div>
     );
 }
